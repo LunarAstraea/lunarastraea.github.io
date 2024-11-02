@@ -1,33 +1,36 @@
 body{
     background-color: black;
-    color: white;
+    color:#d77bba;
     font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, "Courier New", monospace;
-    font-size: 30px;
+    font-size: 20px;
 }
 :root{
     margin:5px;
 }
-.img88x31{
-    image-rendering: pixelated;
-    image-rendering: -moz-crisp-edges;
-
-   }
-.img88x31:hover{
-    filter:brightness(1.1);
-    border:1px solid #fff;
-    margin:-1px;
-}
 
 .mainpink{
-    color:#d77bba
+    color:#d77bba;
+    margin:5px;
 }
-.endo {
+.mainpinkbutbigger{
+    color:#d77bba;
+    font-size:130%;
+    margin:2px;
+    padding-bottom: 0;
+}
+.mainpinkhead{
+    color:#d77bba;
+    font-size: 45px;
+    margin:5px;
+    text-align: center;
+}
+.hoverbox {
     position: relative;
     display: inline-block;
     cursor: pointer;
 }
 
-.endo .endo-text {
+.hoverbox .hoverbox-text {
     visibility: hidden;
     width: 120px;
     background-color: #000;
@@ -36,14 +39,16 @@ body{
     padding: 5px;
     border-radius: 5px;
     position: absolute;
-    bottom:125%;
+    bottom:100%;
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
     transition: opacity 0.3s;
     font-size: 15px;
+    max-width: 200px;
+    white-space: normal;
 }
-.endo .endo-text:after {
+.hoverbox .hoverbox-text:after {
     content: "";
     position: absolute;
     top: 100%;
@@ -53,7 +58,7 @@ body{
     border-style: solid;
     border-color: #d77bba transparent transparent transparent;
 }
-.endo:hover .endo-text {
+.hoverbox:hover .hoverbox-text {
     visibility: visible;
     opacity: 1;
 }
@@ -65,4 +70,39 @@ a:visited{
 }
 a:hover{
     color: #fd90db;
+}
+#gifs {
+    position: relative;
+}
+#gifs img {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+div{
+    position: relative;
+}
+.img88x31{
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    align-self: center;
+}
+.img88x31:hover{
+    filter:brightness(1.1);
+    border:1px solid #fff;
+    margin:-1px;
+}
+.maindiv {
+    position: relative;
+    margin: 20px 50px 50px 50px;
+    border:1px #ff91be solid;
+    box-shadow: 0 0 4px 3px #d77bba;
+    padding-bottom: 1px;
+}
+.wrap {
+    max-width: 1100px;
+    margin: 0 auto;
 }
