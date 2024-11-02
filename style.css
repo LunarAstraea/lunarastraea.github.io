@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, "Courier New", monospace;
+    font-size: 30px;
+}
+:root{
+    margin:5px;
+}
+.img88x31{
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+
+   }
+.img88x31:hover{
+    filter:brightness(1.1);
+    border:1px solid #fff;
+    margin:-1px;
+}
+
+.mainpink{
+    color:#d77bba
+}
+.endo {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.endo .endo-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #000;
+    color: #d77bba;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom:125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 15px;
+}
+.endo .endo-text:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #d77bba transparent transparent transparent;
+}
+.endo:hover .endo-text {
+    visibility: visible;
+    opacity: 1;
+}
+a{
+    color: #d77bba;
+}
+a:visited{
+    color: #a35d8d;
+}
+a:hover{
+    color: #fd90db;
+}
