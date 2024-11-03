@@ -142,3 +142,12 @@ main {
 #email {
     cursor: pointer;
 }
+@media only screen and (max-width: 768px) {
+    .wrap {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    main {
+        margin: 0;
+    }
+}
