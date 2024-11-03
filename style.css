@@ -33,7 +33,6 @@ body{
 
 .hoverbox .hoverbox-text {
     visibility: hidden;
-    width: 120px;
     background-color: #000;
     color: #d77bba;
     text-align: center;
@@ -46,7 +45,8 @@ body{
     opacity: 0;
     transition: opacity 0.3s;
     font-size: 18px;
-    max-width: 200px;
+    min-width: 180px;
+    max-width: 600px;
     white-space: normal;
 }
 .hoverbox .hoverbox-text:after {
