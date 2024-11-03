@@ -63,13 +63,13 @@ body{
     visibility: visible;
     opacity: 1;
 }
-a{
+.links{
     color: #d77bba;
 }
-a:visited{
+.links:visited{
     color: #a35d8d;
 }
-a:hover{
+.links:hover{
     color: #fd90db;
 }
 #gifs {
