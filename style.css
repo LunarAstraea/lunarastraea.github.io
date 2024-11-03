@@ -74,6 +74,7 @@ body{
 }
 #gifs {
     position: relative;
+    margin: 0 0 44px;
 }
 #gifs img {
     position:absolute;
@@ -150,7 +151,14 @@ main {
     main {
         margin: 0;
     }
-    .indiv {
-        margin:0;
+    .cornertext{
+        white-space: nowrap;
+    }
+    #email {
+        word-wrap: break-word;
+    }
+    #gifs {
+        margin: 44px;
+        padding-bottom: 44px;
     }
 }
