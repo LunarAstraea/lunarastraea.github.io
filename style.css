@@ -142,9 +142,9 @@ main {
 #email {
     cursor: pointer;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1080px) {
     .wrap {
-        max-width: 90%;
+        max-width: 100%;
         margin: 0 auto;
     }
     main {
