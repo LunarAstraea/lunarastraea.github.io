@@ -11,11 +11,12 @@ body{
 .mainpink{
     color:#d77bba;
     margin:5px;
+    padding:0;
 }
 .mainpinkbutbigger{
     color:#d77bba;
     font-size:130%;
-    margin:2px;
+    margin:5px;
     padding-bottom: 0;
 }
 .mainpinkhead{
@@ -44,7 +45,7 @@ body{
     transform: translateX(-50%);
     opacity: 0;
     transition: opacity 0.3s;
-    font-size: 15px;
+    font-size: 18px;
     max-width: 200px;
     white-space: normal;
 }
@@ -100,9 +101,44 @@ div{
     margin: 20px 50px 50px 50px;
     border:1px #ff91be solid;
     box-shadow: 0 0 4px 3px #d77bba;
-    padding-bottom: 1px;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 5;
+    overflow: visible;
+    transform: none;
+    filter: none;
+}
+.indiv {
+    position: relative;
+    border: 2px solid #ff91be;
+    box-shadow: 0 0 2px 1px #d77bba;
+    padding: 10px;
+    width: 80%;
+    min-height: 60%;
+    height: auto;
+    margin: 30px 20px 20px 20px;
 }
 .wrap {
-    max-width: 1100px;
+    max-width: 1800px;
     margin: 0 auto;
+    padding: 10px;
+    z-index: 0;
+}
+.cornertext{
+    position: absolute;
+    top:-22px;
+    left:10px;
+    background-color:black;
+    padding:5px;
+    font-weight: bold;
+    z-index:20;
+}
+.small {
+    font-size: 12px;
+}
+#discord{
+    cursor: pointer;
+}
+#email {
+    cursor: pointer;
 }
