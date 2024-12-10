@@ -63,14 +63,23 @@ body{
     visibility: visible;
     opacity: 1;
 }
-.links{
+.links1{
     color: #d77bba;
 }
-.links:visited{
+.links1:visited{
     color: #a35d8d;
 }
-.links:hover{
+.links1:hover{
     color: #fd90db;
+}
+.links2 {
+    color: #9a2db8;
+}
+.links2:visited{
+    color: #9026b1
+}
+.links2:hover{
+    color: #c938df;
 }
 #gifs {
     position: relative;
@@ -113,7 +122,7 @@ main {
     position: relative;
     border: 2px solid #ff91be;
     box-shadow: 0 0 1px 1px #d77bba;
-    padding: 10px;
+    padding: 12px;
     width: 80%;
     min-height: 60%;
     height: auto;
@@ -142,6 +151,12 @@ main {
 }
 #email {
     cursor: pointer;
+}
+.clickable {
+    cursor: pointer;
+}
+.clickable:hover {
+    filter:brightness(1.2);
 }
 @media only screen and (max-width: 1080px) {
     .wrap {
